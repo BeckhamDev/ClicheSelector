@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - ClichêFlix</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+	<title>
+		Selecionador aleatorio de filmes
+	</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="page-title">
+			ClichêFlix
+		</h1>
+		<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+		<p class="page-subtitle">
+			Como vamos preencher seu vazio emocional hoje?
+			Aperte o botão e descubra.
+		</p>
+		<button class="escolher" type="submit" onclick="escolher()" id="btnSortear">Sortear</button>
+		<h2 class="resultado" id="escolhido"></h2>
+		<h3 class="nomeFilme" id="nomeFilme"></h3>
+		<button class="catalogoB" type="submit" onclick="catalogo()" id="btnCatalogo">Catálogo</button>
+		<h4 class="catalogo" id="catalogo"></h4>
+		<p class="txt-edit">Adicione filmes usando o URL da imagem do filme desejado:</p>
+		<input type="text" id="novos" placeholder="Insira o URL da imagem" class="input-edit">
+		<input type="text" id="novoNome" placeholder="Insira o nome do Filme" class="input-edit-nome">
+		<h5>
+			<button class="adicionar" type="submit" onclick="adicionar()" id="btnAdicionar">Adicionar Filme</button>
+		</h5>
+	</div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

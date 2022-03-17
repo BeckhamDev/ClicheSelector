@@ -1,0 +1,87 @@
+body {
+	font-family: "Roboto Mono", monospace;
+	text-align: center;
+	background-image: url("https://www.designerd.com.br/wp-content/uploads/2019/02/netflix-logo-animation.jpg");
+	background-color: #000000;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+}
+.container h3 {
+	color: #ffffff;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.page-title {
+	color: #ffffff;
+	margin: 0 0 5px;
+}
+
+.page-subtitle {
+	color: #ffffff;
+	margin-top: 5px;
+}
+
+.page-logo {
+	width: 200px;
+}
+
+.alura-logo {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+body > img {
+	margin: 0 10px;
+}
+
+img {
+	max-height: 250px;
+}
+.txt-edit {
+	color: #ffffff;
+	margin-top: 5px;
+}
+input {
+	width: 200px;
+	margin-top: 20px;
+	height: 25px;
+	border-radius: 20px;
+	background: none;
+	text-align: center;
+	border: 2px solid red;
+	color: white;
+}
+button {
+	border: none;
+	padding: 10px 17px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background.0.1s;
+	border-radius: 15px;
+	background: #ffffff;
+	font-size: 15px;
+	font-family: Comic Sans MS;
+	margin-top: 10px;
+}
+button:hover {
+	border: none;
+	padding: 10px 17px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background.0.1s;
+	border-radius: 15px;
+	background: red;
+	transition: all 0.1s;
+	font-size: 15px;
+	font-family: Comic Sans MS;
+	margin-top: 10px;
+}
